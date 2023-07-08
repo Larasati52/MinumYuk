@@ -13,6 +13,10 @@
 		F09C6B1F2A593F6D00ADAED3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F09C6B1D2A593F6D00ADAED3 /* Main.storyboard */; };
 		F09C6B212A593F6E00ADAED3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F09C6B202A593F6E00ADAED3 /* Assets.xcassets */; };
 		F09C6B242A593F6F00ADAED3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F09C6B222A593F6E00ADAED3 /* LaunchScreen.storyboard */; };
+		F09C6B2C2A59409600ADAED3 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09C6B2B2A59409600ADAED3 /* ScheduleViewController.swift */; };
+		F09C6B2E2A5940C400ADAED3 /* AddScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09C6B2D2A5940C400ADAED3 /* AddScheduleViewController.swift */; };
+		F09C6B332A59411C00ADAED3 /* ScheduleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09C6B312A59411C00ADAED3 /* ScheduleCell.swift */; };
+		F09C6B342A59411C00ADAED3 /* ScheduleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F09C6B322A59411C00ADAED3 /* ScheduleCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		F09C6B202A593F6E00ADAED3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F09C6B232A593F6F00ADAED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F09C6B252A593F6F00ADAED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F09C6B2B2A59409600ADAED3 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		F09C6B2D2A5940C400ADAED3 /* AddScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddScheduleViewController.swift; sourceTree = "<group>"; };
+		F09C6B312A59411C00ADAED3 /* ScheduleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleCell.swift; sourceTree = "<group>"; };
+		F09C6B322A59411C00ADAED3 /* ScheduleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScheduleCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +67,14 @@
 				F09C6B172A593F6D00ADAED3 /* AppDelegate.swift */,
 				F09C6B192A593F6D00ADAED3 /* SceneDelegate.swift */,
 				F09C6B1B2A593F6D00ADAED3 /* ViewController.swift */,
+				F09C6B2B2A59409600ADAED3 /* ScheduleViewController.swift */,
+				F09C6B2D2A5940C400ADAED3 /* AddScheduleViewController.swift */,
 				F09C6B1D2A593F6D00ADAED3 /* Main.storyboard */,
 				F09C6B202A593F6E00ADAED3 /* Assets.xcassets */,
 				F09C6B222A593F6E00ADAED3 /* LaunchScreen.storyboard */,
 				F09C6B252A593F6F00ADAED3 /* Info.plist */,
+				F09C6B312A59411C00ADAED3 /* ScheduleCell.swift */,
+				F09C6B322A59411C00ADAED3 /* ScheduleCell.xib */,
 			);
 			path = MinumYuk;
 			sourceTree = "<group>";
@@ -127,6 +139,7 @@
 			files = (
 				F09C6B242A593F6F00ADAED3 /* LaunchScreen.storyboard in Resources */,
 				F09C6B212A593F6E00ADAED3 /* Assets.xcassets in Resources */,
+				F09C6B342A59411C00ADAED3 /* ScheduleCell.xib in Resources */,
 				F09C6B1F2A593F6D00ADAED3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,7 +153,10 @@
 			files = (
 				F09C6B1C2A593F6D00ADAED3 /* ViewController.swift in Sources */,
 				F09C6B182A593F6D00ADAED3 /* AppDelegate.swift in Sources */,
+				F09C6B2E2A5940C400ADAED3 /* AddScheduleViewController.swift in Sources */,
 				F09C6B1A2A593F6D00ADAED3 /* SceneDelegate.swift in Sources */,
+				F09C6B332A59411C00ADAED3 /* ScheduleCell.swift in Sources */,
+				F09C6B2C2A59409600ADAED3 /* ScheduleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
